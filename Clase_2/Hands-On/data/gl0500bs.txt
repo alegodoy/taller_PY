@@ -1,0 +1,14 @@
+Information
+Image Size: 				43200 Pixels 21600 Lines 
+Quantization:			    8-bit unsigned integer
+Output Georeferenced Units: LONG/LAT E019
+Projection:    				Geographic (geodetic)
+Earth Ellipsoid:			Sphere, rad 6370997 m 
+Upper Left Corner:			180d00'00.00" W Lon90d00'00.00" N Lat
+Lower Right Corner:			180d00'00.00" E Lon 90d00'00.00" S Lat
+Pixel Size (in Degrees):	0.00833 Lon 0.00833 Lat
+(Equivalent Deg,Min,Sec):	0d00'30.00"0d00'30.00" 
+UpLeftX:					-180 
+UpLeftY:      				90
+LoRightX:        			180
+LoRightY:      				-90
