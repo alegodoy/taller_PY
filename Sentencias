@@ -1,0 +1,34 @@
+
+#Calculo de Percentiles
+import numpy as np
+
+p10=np.percentile(datos,10)
+p20=np.percentile(datos,20)
+p30=np.percentile(datos,30)
+p40=np.percentile(datos,40)
+p50=np.percentile(datos,50)
+p60=np.percentile(datos,60)
+p70=np.percentile(datos,70)
+p80=np.percentile(datos,80)
+p90=np.percentile(datos,90)
+p100=np.percentile(datos,100)
+
+print p10 #por ejemplo
+
+#Identificar los maximos
+maximo=max(datos)
+
+#Plotear el histograma de la estacion 1
+import matplotlib.pyplot as plt
+import potly.potly as py
+
+plt.hist(datos[:,5],bins=[0,p10,p20,p30,p40,p50,p60,p70,p80,p90,p100])
+plt.title("Nombre de la estacion")
+plt.xlabel("Precipitacion")
+plt.ylabel("Frecuencia")
+
+fig=plt.gcf()
+plot.url=py.plot_mpl(fig,filename='...')
+
+
+
